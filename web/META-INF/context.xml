@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/J3LP0011" allowCasualMultipartParsing="true">
+    <Resource
+        name = "LAB2"
+        type = "javax.sql.DataSource"
+        auth = "Container"
+        driverClassname = "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+        url = "jdbc:sqlserver://localhost:1433;databaseName=YellowMoonCakeShop"
+        username = "sa"
+        password = "123456789"
+    />
+</Context>
